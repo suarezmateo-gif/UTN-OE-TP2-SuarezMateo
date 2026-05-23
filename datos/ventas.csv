@@ -1,0 +1,11 @@
+id,producto,cantidad,precio,fecha,venta_total,mes
+1,Producto A,10,100,2024-01-31,1000,1
+2,Producto B,5,200,2024-02-29,1000,2
+3,Producto A,8,100,2024-03-31,800,3
+4,Producto C,3,300,2024-04-30,900,4
+5,Producto B,7,200,2024-05-31,1400,5
+6,Producto A,12,100,2024-06-30,1200,6
+7,Producto C,4,300,2024-07-31,1200,7
+8,Producto B,6,200,2024-08-31,1200,8
+9,Producto A,9,100,2024-09-30,900,9
+10,Producto C,2,300,2024-10-31,600,10
