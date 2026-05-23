@@ -1,4 +1,3 @@
-
 # analisis_datos.py
 # Script de análisis de ventas - TP Organización Empresarial UTN TUP
 # Autor: Paco (P2 - Desarrollador Técnico)
@@ -26,7 +25,6 @@ print(f"Producto más vendido: {producto_mas_vendido}")
 print(f"Ventas por mes:\n{ventas_por_mes}")
 
 # --- GRÁFICO ---
-# Gráfico de barras para visualizar evolución mensual de ventas
 fig, ax = plt.subplots(figsize=(8, 5))
 ventas_por_mes.plot(kind="bar", ax=ax, color="steelblue")
 ax.set_title("Evolución de Ventas por Mes")
@@ -34,7 +32,6 @@ ax.set_xlabel("Mes")
 ax.set_ylabel("Ventas Totales ($)")
 plt.tight_layout()
 
-# Guardamos el gráfico en /resultados
 os.makedirs("resultados", exist_ok=True)
 plt.savefig("resultados/grafico_ventas.png")
 print("Gráfico guardado en /resultados")
